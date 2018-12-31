@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="title">Product Detail</div>
+  <div class="product-detail-container">
+    <div class="param-line">
+      <div class="label">ID</div>
+      <div class="value">{{ product.id }}</div>
+    </div>
+    <div class="param-line">
+      <div class="label">Name</div>
+      <div class="value">{{ product.name }}</div>
+    </div>
+    <div class="param-line">
+      <div class="label">Price</div>
+      <div class="value">{{ product.price }}</div>
+    </div>
+    <div class="param-line">
+      <div class="label">Description</div>
+      <div class="value">{{ product.description }}</div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="button white" routerLink="/products">To Product List</div>
+    <div class="button black" routerLink="edit">To Product Edit</div>
+  </div>
+</div>
